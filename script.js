@@ -14,9 +14,9 @@ function toggleMode() {
   // substituir a img
   if (html.classList.contains("light")) {
     // se tiver o light mode, adicionar a img light
-    img.setAttribute("src", "/assets/assets/Juliano-light.jpg")
+    img.setAttribute("src", "./assets/assets/Juliano-light.jpg")
   } else {
     // se tiver sem o light mode, adicionar a img normal
-    img.setAttribute("src", "/assets/assets/Juliano.jpg")
+    img.setAttribute("src", "./assets/assets/Juliano.jpg")
   }
 }
