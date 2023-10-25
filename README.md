@@ -20,6 +20,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <p align="center">
   <img alt="projeto DevLinks" src=".github/ImgGit.jpg" width="100%">
+  <a href="https://jlisarte.github.io/projeto/" target="_blank">https://jlisarte.github.io/projeto/</a>
 </p>
 
 ## 🚀 Tecnologias
