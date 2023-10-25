@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="">
+<html lang="pt-br" class="light">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,10 +17,15 @@
     <div id="container">
       <div id="profile">
         <img
+          id="profile-dark"
           src="/assets/assets/Juliano.jpg"
-          alt="Foto do mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo laranja"
+          alt="Foto do Juliano"
         />
         <p>@julianolisarte</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
       </div>
       <ul>
         <li>
@@ -43,17 +48,18 @@
           <ion-icon name="logo-github"></ion-icon>
         </a>
         <a href="#" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>         
+          <ion-icon name="logo-instagram"></ion-icon>
         </a>
         <a href="#" target="_blank">
-          <ion-icon name="logo-youtube"></ion-icon>          
+          <ion-icon name="logo-youtube"></ion-icon>
         </a>
         <a href="#" target="_blank">
-          <ion-icon name="logo-linkedin"></ion-icon>   
+          <ion-icon name="logo-linkedin"></ion-icon>
         </a>
       </div>
       <footer>
-        Feito com <ion-icon class="heart" name="heart"></ion-icon> por <a href="#" target="_blank"> Juliano Lisarte</a>
+        Feito com <ion-icon class="heart" name="heart"></ion-icon> por
+        <a href="#" target="_blank"> Juliano Lisarte</a>
       </footer>
     </div>
     <script
@@ -64,5 +70,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="/scripts/script.js"></script>
   </body>
 </html>
